@@ -14,10 +14,10 @@ set_target_properties(allocator lib_allocators lib_containers PROPERTIES
     CXX_STANDARD_REQUIRED ON
 )
 
-target_link_directories(allocator PRIVATE
-lib_allocators
-lib_containers
-)
+#target_link_directories(allocator PRIVATE
+#lib_allocators
+#lib_containers
+#)
 
 #target_include_directories(allocator PRIVATE
  #   lib_allocators
