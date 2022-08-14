@@ -19,10 +19,9 @@ set_target_properties(allocator lib_allocators lib_containers PROPERTIES
 #lib_containers
 #)
 
-#target_include_directories(allocator PRIVATE
- #   lib_allocators
- #   lib_containers
-#)
+target_include_directories(allocator PRIVATE
+"${CMAKE_CURRENT_SOURCE_DIR}"
+)
 
 if (MSVC)
 
