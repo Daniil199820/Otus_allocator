@@ -1,0 +1,7 @@
+D:/Otus_allocator/.gitignore/CMakeFiles/allocator.dir
+D:/Otus_allocator/.gitignore/CMakeFiles/lib_allocators.dir
+D:/Otus_allocator/.gitignore/CMakeFiles/lib_containers.dir
+D:/Otus_allocator/.gitignore/CMakeFiles/PACKAGE.dir
+D:/Otus_allocator/.gitignore/CMakeFiles/INSTALL.dir
+D:/Otus_allocator/.gitignore/CMakeFiles/ALL_BUILD.dir
+D:/Otus_allocator/.gitignore/CMakeFiles/ZERO_CHECK.dir
