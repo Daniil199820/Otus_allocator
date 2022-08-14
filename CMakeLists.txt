@@ -23,16 +23,16 @@ target_include_directories(allocator PRIVATE
 "${CMAKE_CURRENT_SOURCE_DIR}"
 )
 
-if (MSVC)
+#if (MSVC)
 
-    target_compile_options(allocator PRIVATE
-        /W4
-    )
-else ()
-    target_compile_options(allocator PRIVATE
-        -Wall -Wextra -pedantic -Werror
-    )
-endif()
+ #   target_compile_options(allocator PRIVATE
+#        /W4
+ #   )
+#else ()
+#    target_compile_options(allocator PRIVATE
+#        -Wall -Wextra -pedantic -Werror
+#    )
+#endif()
 
 
 install(TARGETS allocator RUNTIME DESTINATION bin)
