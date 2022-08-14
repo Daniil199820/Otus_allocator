@@ -6,8 +6,8 @@ set(PROJECT_VERSION 0.0.${PATCH_VERSION})
 project(allocator VERSION ${PROJECT_VERSION})
 
 add_executable(allocator main.cpp)
-add_executable(lib_allocators lib_allocators.h)
-add_executable(lib_containers lib_containers.h)
+#add_executable(lib_allocators lib_allocators.h)
+#add_executable(lib_containers lib_containers.h)
 
 set_target_properties(allocator lib_allocators lib_containers PROPERTIES
     CXX_STANDARD 17
