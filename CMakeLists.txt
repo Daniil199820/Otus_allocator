@@ -9,7 +9,7 @@ add_executable(allocator main.cpp)
 #add_executable(lib_allocators lib_allocators.h)
 #add_executable(lib_containers lib_containers.h)
 
-set_target_properties(allocator lib_allocators lib_containers PROPERTIES
+set_target_properties(allocator  PROPERTIES
     CXX_STANDARD 17
     CXX_STANDARD_REQUIRED ON
 )
@@ -28,21 +28,9 @@ if (MSVC)
     target_compile_options(allocator PRIVATE
         /W4
     )
-    target_compile_options(lib_allocators PRIVATE
-        /W4
-    )
-    target_compile_options(lib_containers PRIVATE
-        /W4
-    )
 else ()
     target_compile_options(allocator PRIVATE
         -Wall -Wextra -pedantic -Werror
-    )
-    target_compile_options(lib_allocators PRIVATE
-    -Wall -Wextra -pedantic -Werror
-    )
-    target_compile_options(lib_containers PRIVATE
-    -Wall -Wextra -pedantic -Werror
     )
 endif()
 
