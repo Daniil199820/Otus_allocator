@@ -58,17 +58,7 @@ struct myLinear_allocator {
 
 	void deallocate(T *p, std::size_t n) {
 
-	//	if (p==nullptr)
-	//		return;
-	//	free(begin_block);
-	//	begin_block = nullptr;
-		//if (begin_block != nullptr)
-	//	{
-		//	std::free(begin_block);
-	//		begin_block = end_block = used_block = nullptr;
-	//	}
-
-
+      //empty in linear allocator
 	}
 
 	template <typename U>
